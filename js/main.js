@@ -1,19 +1,14 @@
 let n = Number(prompt("ingrese la cantidad de pacientes que tiene el consultorio"))
 c=1;
 class turno {
-    constructor(fe,nom,ape,dni,doc)
+    constructor(fe,nom,ape,dni)
     {
         this.fe= fe
         this.nom=nom
         this.ape=ape
         this.dni=dni
-        this.doc=doc
     }
 }
-let doc1=0;//doctor con mayor paciente
-let doc2=0;
-let doc3=0;
-let doc4=0;
 const turnos=[];
 console.log
 while(c<=n)
@@ -27,7 +22,6 @@ while(c<=n)
     let nombre=prompt("Ingrese el nombre")
     let apellido=prompt("Ingrese el apellido")
     let DNI=prompt("Ingrese el documento")
-    let doc=prompt("Ingrese a que doctor se quiere diriguir \n 1- Terapeuta 2-Doctor \n 3- Psicologo 4-Doctor2")
     turnos.push(new turno(fecha,nombre,apellido,DNI,doc))
     c++;
 }
