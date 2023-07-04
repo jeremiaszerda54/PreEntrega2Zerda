@@ -22,7 +22,7 @@ while(c<=n)
     let nombre=prompt("Ingrese el nombre")
     let apellido=prompt("Ingrese el apellido")
     let DNI=prompt("Ingrese el documento")
-    turnos.push(new turno(fecha,nombre,apellido,DNI,doc))
+    turnos.push(new turno(fecha,nombre,apellido,DNI))
     c++;
 }
 for(const tur of turnos)
