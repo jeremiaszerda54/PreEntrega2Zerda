@@ -131,22 +131,22 @@ if( algomas!="no"){
                 let caulm=Number(prompt("ingrese el numero del doctor a saber la ganancia total"))
                 if(caulm==1)
                 {
-                    alert("El total ganado por el doc 1 es: " + doc1(doc11,precio1));
-                    console.log("El total ganado por el doc 1 es: " + doc1(doc11,precio1))
+                    alert("El total ganado por el doc 1 es: " + doc1(doc11,precio1)+"$");
+                    console.log("El total ganado por el doctor 1 es: " + doc1(doc11,precio1)+"$")
                 }
                 else
                 {
                     if(caulm==2)
                     {
-                        alert("El total ganado por el doc 2 es: " + doc2(doc12,precio2));
-                        console.log("El total ganado por el doc 2 es: " +  doc2(doc12,precio2))
+                        alert("El total ganado por el doc 2 es: " + doc2(doc12,precio2)+"$");
+                        console.log("El total ganado por el doctor 2 es: " +  doc2(doc12,precio2)+"$")
                     }
                     else
                     {
                         if(caulm==3)
                         {
-                            alert("El total ganado por el doc 3 es: " + doc3(doc13,precio3));
-                            console.log("El total ganado por el doc 2 es:" + doc3(doc13,precio3))
+                            alert("El total ganado por el doc 3 es: " + doc3(doc13,precio3)+"$");
+                            console.log("El total ganado por el doctor 2 es:" + doc3(doc13,precio3) +"$")
                         }                        
                     }
                 }
